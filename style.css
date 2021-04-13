@@ -1,0 +1,93 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  height: 95vh;
+  background-image: url(./black-linen.png);
+  background-color: #364547;
+}
+
+.whole-board {
+  margin: auto auto;
+}
+
+
+.square {
+  /* padding: 3rem; */
+  font-size: 8rem;
+  height: 15rem;
+  width: 15rem;
+  font-weight: 100;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: whitesmoke;
+}
+
+.square:hover {
+  cursor: pointer;
+}
+
+#box1 {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+
+}
+
+#box2 {
+  border-bottom: 1px solid white;
+
+
+}
+
+#box3 {
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+
+}
+
+#box4 {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+
+}
+
+#box5 {
+  border-bottom: 1px solid white;
+
+
+}
+
+#box6 {
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+
+}
+
+#box7 {
+  /* border-bottom: 1px solid white; */
+  border-right: 1px solid white;
+
+}
+
+#box8 {
+  /* border-bottom: 1px solid white; */
+
+
+}
+
+#box9 {
+  /* border-bottom: 1px solid white; */
+  border-left: 1px solid white;
+
+}
